@@ -7,6 +7,8 @@
 //
 
 #import "CRGoodsDetailViewController.h"
+#import <CRConfirmOrderServiceProtocol/CRConfirmOrderServiceProtocol.h>
+#import <CRProtocolManager/CRProtocolManager.h>
 
 @interface CRGoodsDetailViewController ()
 
@@ -49,7 +51,13 @@
 #pragma mark - event
 
 - (void)didClickBuyButton:(UIButton *)button {
-    
+    id <CRConfirmOrderServiceProtocol> provide = [CRProtocolManager serviceProvideForProtocol:@protocol(CRConfirmOrderServiceProtocol)];
+    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithGoodsId:self.goodsId sureComplete:^{
+        self.statusLabel.text = @"购买成功";
+    }];
+    if (confirmOrderVC) {
+        [self presentViewController:confirmOrderVC animated:YES completion:nil];
+    }
 }
 
 #pragma mark - getters
