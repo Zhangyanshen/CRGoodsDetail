@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CRGoodsDetail"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of CRGoodsDetail."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   A longer description of CRGoodsDetail in Markdown format.
+                   A description of CRGoodsDetail in Markdown format.
                    DESC
 
   s.homepage     = "https://github.com/Zhangyanshen/CRGoodsDetail.git"
