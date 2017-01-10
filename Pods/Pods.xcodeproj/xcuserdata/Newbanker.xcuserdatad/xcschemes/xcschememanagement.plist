@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CRGoodsDetailServiceProtocol.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>CRProtocolManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7D17430754935B14BDB8E67EC3D3B9D2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>B4110ED21358443C7C4BC974FA1BF5F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4318D428838EDBF5486C4ECB88CC3A7</key>
+		<key>D469B88EA2E165BABC3F3681B90CCBDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
